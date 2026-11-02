@@ -1,0 +1,16 @@
+{
+  "name": "mongo-pocket-notes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file=.env src/cli.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0"
+  }
+}
